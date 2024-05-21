@@ -17,7 +17,7 @@ int main(){
 		vector<char> vec(c.begin() , c.end()) ; 
 		map<char,char> mp ;
 		for(int i = 0 ; i < len ; i++){
-			mp[vec[i]] = mp[vec[size - 1 - i]] ; 
+			mp[vec[i]] = mp[vec[len - i - 1]] ; 
 		}
 
 		for(auto it : a){
